@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "public/browser",
+    "site" : "newsreader-1ddfa",
     "ignore": [
       "firebase.json",
       "**/.*",

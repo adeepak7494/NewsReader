@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { NewsFeedComponent } from './features/news-feed/news-feed.component';
 import { NewsService } from './core/services/news.service';
 
+
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, NewsFeedComponent],
