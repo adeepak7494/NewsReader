@@ -1,1 +1,14 @@
-<app-news-feed></app-news-feed>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side" opened="true">
+    <app-sidebar></app-sidebar>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <app-header (toggleSidenav)="sidenav.toggle()"></app-header>
+
+    <div class="content-wrapper">
+      <app-news-feed></app-news-feed>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
